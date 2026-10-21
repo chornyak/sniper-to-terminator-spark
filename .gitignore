@@ -1,0 +1,5 @@
+# Keep personal/shared tune files out of the repo
+*.spark
+converted/
+__pycache__/
+.DS_Store
