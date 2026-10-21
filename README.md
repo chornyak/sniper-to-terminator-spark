@@ -6,7 +6,9 @@ Holley's Terminator X software won't import a `.spark` (base spark table) file s
 
 *The Base Spark screen in Terminator X. The converter brings over the Idle, Cruise and WOT targets, the table and both axes.*
 
-> **Not affiliated with Holley.** This is an independent, community-made tool. The file format was worked out by comparing files, not from any documentation. Check every value in the software before you write a table to your ECU.
+> **Not affiliated with Holley.** This is an independent, community-made tool. The file format was worked out by comparing files, not from any documentation.
+>
+> **Use at your own risk.** The authors assume **no responsibility** and make **no guarantees** about the output. **You** are responsible for verifying every value in your tune before using it on your vehicle. See the full [Disclaimer](#disclaimer).
 
 ---
 
@@ -147,6 +149,14 @@ To convert, the script copies the Sniper data, inserts the Terminator-only block
 ## Contributing
 
 Reports of which software versions work (or don't), plus sample files from other versions, are the most useful contributions. If you know what the remaining unknown settings are, please share that too.
+
+## Disclaimer
+
+This tool is provided "as is", without warranty of any kind. The authors and contributors assume **absolutely no responsibility or liability** for the output of this tool, or for any damage to engines, vehicles or other property, or any injury, that results from using it or any file it produces. **No guarantee** is made that converted files are correct, complete, or safe to run.
+
+It is **entirely the responsibility of the user** to check and verify every value in their tune, including timing targets, the spark table, axes and all other settings, before using it on any vehicle. If you aren't confident checking a tune yourself, have it reviewed by a qualified tuner.
+
+Holley, Sniper and Terminator X are trademarks of their respective owners. This project is not affiliated with, endorsed by, or supported by Holley.
 
 ## License
 
